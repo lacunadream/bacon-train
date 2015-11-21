@@ -11,7 +11,7 @@ app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-app.set('port', process.env.PORT || 8080);
+app.set('port', process.env.PORT);
 
 app.get('/', function(req, res) {
     res.json({ message: 'eff off' });   
