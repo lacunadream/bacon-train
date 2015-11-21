@@ -29,7 +29,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
  	var result = Math.random() * time
 
- 	var x = {"Crowd Score":result, "Destination":dest}
+ 	var x = {"Crowd Score":result, "Departure":dept, "Destination":dest}
  	console.log(x)
  	res.json(x)
  })
