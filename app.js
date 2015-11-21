@@ -2,19 +2,20 @@
  * Module dependencies.
  */
 var express = require('express');
-var logger = require('morgan');
+var morgan = require('morgan');
 var bodyParser = require('body-parser');
 var pg = require('pg');
 
 /**
  * ENV
  */
-var app = express();
-app.set('port', process.env.PORT || 3000);
-app.use(logger('dev'));
-app.use(bodyParser.json());
+ var app = express()
+// App shit
+app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
 
+app.set('port', process.env.PORT || 3000);
 /**
  * Primary app routes.
  */
