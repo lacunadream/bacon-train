@@ -1,5 +1,5 @@
 {
-  "name": "bacon-train",
+  "name": "simplify-api-wrapper",
   "version": "1.0.0",
   "description": "i hate hackathons",
   "main": "app.js",
@@ -8,18 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lacunadream/bacon-train.git"
+    "url": "git+https://github.com/lacunadream/simplify-api-wrapper.git"
   },
   "author": "lacunadream",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lacunadream/bacon-train/issues"
+    "url": "https://github.com/lacunadream/simplify-api-wrapper/issues"
   },
-  "homepage": "https://github.com/lacunadream/bacon-train#readme",
+  "homepage": "https://github.com/lacunadream/simplify-api-wrapper#readme",
   "dependencies": {
     "body-parser": "^1.14.1",
     "express": "^4.13.3",
     "morgan": "^1.6.1",
-    "pg": "^4.4.3"
   }
 }
